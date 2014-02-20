@@ -1,6 +1,9 @@
 -
- name: Writings
- slug: writings
+ name: About
+ slug: about
+-
+ name: Journalism
+ slug: journalism
 -
  name: "<em>The Lost Chalice</em>"
- slug: books/the-lost-chalice
+ slug: book/the-lost-chalice

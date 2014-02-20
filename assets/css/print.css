@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined mixin 'adjust-leading-to'.
-        on line 7 of /Users/budparr/Documents/github/sonnetmedia/sites/vernonsilver.com/assets/_sass/print.scss, in `adjust-leading-to'
-        from line 7 of /Users/budparr/Documents/github/sonnetmedia/sites/vernonsilver.com/assets/_sass/print.scss
+        on line 7 of /Users/budparr/Documents/github/vernonsilver/assets/_sass/print.scss, in `adjust-leading-to'
+        from line 7 of /Users/budparr/Documents/github/vernonsilver/assets/_sass/print.scss
 
 Backtrace:
-/Users/budparr/Documents/github/sonnetmedia/sites/vernonsilver.com/assets/_sass/print.scss:7:in `adjust-leading-to'
-/Users/budparr/Documents/github/sonnetmedia/sites/vernonsilver.com/assets/_sass/print.scss:7
+/Users/budparr/Documents/github/vernonsilver/assets/_sass/print.scss:7:in `adjust-leading-to'
+/Users/budparr/Documents/github/vernonsilver/assets/_sass/print.scss:7
 /Users/budparr/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /Users/budparr/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.14/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/budparr/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.14/lib/sass/tree/visitors/perform.rb:100:in `visit'
@@ -71,4 +71,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'adjust-leading-to'.\A         on line 7 of /Users/budparr/Documents/github/sonnetmedia/sites/vernonsilver.com/assets/_sass/print.scss, in `adjust-leading-to'\A         from line 7 of /Users/budparr/Documents/github/sonnetmedia/sites/vernonsilver.com/assets/_sass/print.scss"; }
+  content: "Syntax error: Undefined mixin 'adjust-leading-to'.\A         on line 7 of /Users/budparr/Documents/github/vernonsilver/assets/_sass/print.scss, in `adjust-leading-to'\A         from line 7 of /Users/budparr/Documents/github/vernonsilver/assets/_sass/print.scss"; }

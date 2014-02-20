@@ -44,11 +44,18 @@ a {
 body.home .sidebar-right {
 	display:none;
 }
-
-
+img {
+	@include single-box-shadow;
+}
+@import "add-ons/buttons";
+button {
+	//@extend button-base(false);
+	@extend btn;
+}
 
 /* ::Import styles */
 /* ------------------------------------------------------------ */
+
 @import "singularitygs";
 @import "libs/typography"; 					// Base level typography
 //@import "libs/forms";						// Forms

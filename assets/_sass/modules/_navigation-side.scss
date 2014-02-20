@@ -132,12 +132,12 @@ $sidebar-right-width:18em;
         background-color: $sidebar-right-color-background;
         color: $sidebar-right-color;
 
-        aside section:first-child {
-          margin-top: 40px !important;
+        section:first-child {
+          margin-top: 50% !important;
         }
 
-        aside section:last-child {
-          margin-bottom: 40px !important;
+        section:last-child {
+          margin-bottom: 10% !important;
         }
             
       }

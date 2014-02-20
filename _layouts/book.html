@@ -1,0 +1,34 @@
+---
+layout: default
+section: book
+---
+<div class="content">
+<article>
+	<header>
+	  <h1 class="entry-title">    	   
+	   	{{page.title}}
+	  </h1>
+	</header>
+	<div class="pure-g-r" style="margin-bottom:8rem;">
+		
+			<div class="pure-u-1">
+        {% include books/related-review.html show="1" %}
+      </div>
+			<div class="pure-u-3-8">
+				{% include books/cover.html styles="max-width:300px;" %}
+				{% include books/meta.html %}
+			</div>
+			<div class="pure-u-5-8">
+				<div class="content-inner">
+					{{ content }}
+					{% include books/buy_links.html %}
+				</div>
+			</div>
+			<div class="pure-u-1" id="reviews">
+
+				{% include books/related-reviews.html show="100" offset="1" %}
+			</div>
+		
+	</div>
+</article>
+</div>
