@@ -1,0 +1,17 @@
+{% include global/head.html %}
+	<body class="{{page.category | replace: ' ','-' | downcase}}{{page.categories | first}}">
+  	<div class="wrapper">
+    	{% include nav/nav-side.html %}
+    	<section class="content">  
+      	{{content}}
+    	</section>
+      {% include nav/nav-side-right.html %}
+<<<<<<< HEAD
+			{% include global/footer.html %}
+=======
+			{% comment %}{% include global/footer.html %}{% endcomment %}
+>>>>>>> f140314511f5939c3982320b4753a38843c75067
+  	<div>
+		{% include global/scripts.html %}
+  </body>
+</html>
