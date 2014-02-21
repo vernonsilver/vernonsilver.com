@@ -7,3 +7,13 @@ $("h1, h2, h3, h4, h5, h6").each(function() {
     $(this).html(wordArray.join(" "));
   }
 });
+
+
+{% comment %}
+// $(“h1”).each(function() {
+// var self = $(this);
+// self.html( self.text().replace(/\s(\S+)$/,” $1″); );
+// });
+{% endcomment %}
+
+

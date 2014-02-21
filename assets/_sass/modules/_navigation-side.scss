@@ -3,9 +3,18 @@
 // ------------------------------------------------------------
 
 // =============== VARIABLES ===============
+//These must be in % values to calculate widths
+$sidebar-width: 20%; 
+$sidebar-right-width: 20%;
+$sidebar-left-breakpoint: $d-vp;
+$sidebar-right-breakpoint: $e-vp;
 
-$sidebar-width:18rem;
-$sidebar-right-width:18em;
+$sidebar-color-background: #333 !default;
+$sidebar-color: #CCC !default;
+
+$sidebar-right-color-background: #f6f6f6 !default;
+$sidebar-right-color: #555 !default;
+
 
 // =============== LEFT SIDEBAR ===============
 
@@ -17,9 +26,9 @@ $sidebar-right-width:18em;
         min-width: 0;
         margin-left: 0;  
         
-        @include respond-to($d-vp, $IE9: false) {
-            min-width: $b-vp;
-            margin-left:  $sidebar-width;  
+        @include respond-to($sidebar-left-breakpoint, $IE9: false) {
+          min-width: $b-vp;
+          margin-left:  $sidebar-width;  
         }
     }
 
@@ -29,7 +38,7 @@ $sidebar-right-width:18em;
         height: auto;
         position: static;    
             
-        @include respond-to($d-vp, $IE9: false) {
+        @include respond-to($sidebar-left-breakpoint, $IE9: false) {
           width: $sidebar-width;
           height: 100%;
           position: fixed;
@@ -52,21 +61,35 @@ $sidebar-right-width:18em;
 
 @if $include-sidebar-right != false {
 
+  
+
       .content {        
         margin-right: 0;  
-        @include respond-to($d-vp, $IE9: false) {
+        @include respond-to($sidebar-right-breakpoint, $IE9: false) {
             margin-right:  $sidebar-right-width;  
         }
       }
 
       .sidebar-right {
-            
+            z-index: 1000;
         width: 100%;
         height: auto;
         position: static;
         
+
+    @include respond-to-min-max($sidebar-left-breakpoint, $sidebar-right-breakpoint, $IE9: false) {
+
+      @if $include-sidebar-left != false {
+          margin-left: $sidebar-width;
+          
+            width: 100% - $sidebar-width;
             
-        @include respond-to($d-vp, $IE9: false) {
+            }            
+
+}
+
+            
+        @include respond-to($sidebar-right-breakpoint, $IE9: false) {
           width: $sidebar-right-width;
           height: 100%;
           position: fixed;
@@ -74,10 +97,9 @@ $sidebar-right-width:18em;
           right: 0;
           overflow-y: scroll;
           -webkit-overflow-scrolling: touch;
+          
+          
 
-            @if $include-sidebar-left != false {
-            margin-left: $sidebar-width;
-            }
         }
     }
 }
@@ -93,9 +115,6 @@ $sidebar-right-width:18em;
 
 @if $include-sidebar-left != false {
   
-    $sidebar-color-background: #333 !default;
-    $sidebar-color: #CCC !default;
-
     .sidebar-left {
 
         text-align: center;
@@ -123,14 +142,14 @@ $sidebar-right-width:18em;
 
 @if $include-sidebar-right != false {
 
-      $sidebar-right-color-background: #f6f6f6 !default;
-      $sidebar-right-color: #555 !default;
-
+      
       .sidebar-right {
         text-align: left;
         padding: 2rem 1rem;
         background-color: $sidebar-right-color-background;
         color: $sidebar-right-color;
+
+@include respond-to($sidebar-right-breakpoint, $IE9: false) {
 
         section:first-child {
           margin-top: 50% !important;
@@ -139,6 +158,7 @@ $sidebar-right-width:18em;
         section:last-child {
           margin-bottom: 10% !important;
         }
+      }
             
       }
 }

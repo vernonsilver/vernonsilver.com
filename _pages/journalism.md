@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Writings
+title: Journalism
 permalink: /journalism/
 # include: snippets/form-contact.html
 include: snippets/writing.html

@@ -3,6 +3,7 @@ article.hentry {
     padding: 1rem;
     margin:auto;
     max-width: $d-vp;
+    min-height: $d-vp;
     overflow: hidden;
 
     img {
@@ -28,6 +29,19 @@ h3 {
     @extend .as-heading__large--typeset;
 }    
 
+h4 {
+    @extend .as-heading__normal;
+    @extend .as-heading__normal--typeset;
+}    
+
+.list h5 {
+    @extend .as-heading__small;
+}
+
+article h5 {
+    @extend .as-heading__small;
+    @extend .as-heading__small--typeset;
+}    
 
 }
 
@@ -49,4 +63,13 @@ blockquote {
 .content img:first-child {
   float: left;
   margin: .5rem 1rem 0 0; 
+}
+
+
+
+hr {
+  //margin-top:    @line-height-computed;
+  //margin-bottom: @line-height-computed;
+  border: 0;
+  border-top: 1px solid #CCC;
 }

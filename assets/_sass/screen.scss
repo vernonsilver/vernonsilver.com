@@ -41,16 +41,45 @@ a {
 /* ::BPNY styles */
 /* ------------------------------------------------------------ */
 
-body.home .sidebar-right {
-	display:none;
+// body.home .sidebar-right {
+// 	display:none;
+// }
+footer {
+	z-index:1000;
+	background-color:$sidebar-right-color-background;
+
+
+@include respond-to($sidebar-right-breakpoint, $IE9: false) {
+
+	background-color:$body-color;
 }
+
+	text-align:center;
+	padding:1em;
+	@extend small;
+}
+
+footer ul li {
+	display:inline-block;
+	margin-right:2em;
+}
+
+ul.posts li {
+	margin-bottom:1em;
+}
+
 img {
 	@include single-box-shadow;
 }
 @import "add-ons/buttons";
 button {
 	//@extend button-base(false);
-	@extend btn;
+	//@extend btn;
+}
+
+hr {
+	width:50%;
+	border-top-color:#ccc;
 }
 
 /* ::Import styles */

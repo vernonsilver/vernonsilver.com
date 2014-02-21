@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, footer, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -73,6 +73,7 @@ article.hentry {
   padding: 1rem;
   margin: auto;
   max-width: 900px;
+  min-height: 900px;
   overflow: hidden;
 }
 article.hentry img {
@@ -84,7 +85,7 @@ article.hentry img {
   }
 }
 
-small {
+small, footer {
   font-size: 0.75em;
   line-height: 1.4666667em;
 }
@@ -94,6 +95,11 @@ small {
   margin: .5rem 1rem 0 0;
 }
 
+hr {
+  border: 0;
+  border-top: 1px solid #CCC;
+}
+
 .content {
   min-width: 0;
   margin-left: 0;
@@ -101,7 +107,7 @@ small {
 @media screen and (min-width: 900px) {
   .content {
     min-width: 481px;
-    margin-left: 18rem;
+    margin-left: 20%;
   }
 }
 
@@ -112,7 +118,7 @@ small {
 }
 @media screen and (min-width: 900px) {
   .sidebar-left {
-    width: 18rem;
+    width: 20%;
     height: 100%;
     position: fixed;
     top: 0;
@@ -125,27 +131,33 @@ small {
 .content {
   margin-right: 0;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1100px) {
   .content {
-    margin-right: 18em;
+    margin-right: 20%;
   }
 }
 
 .sidebar-right {
+  z-index: 1000;
   width: 100%;
   height: auto;
   position: static;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) and (max-width: 1100px) {
   .sidebar-right {
-    width: 18em;
+    margin-left: 20%;
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .sidebar-right {
+    width: 20%;
     height: 100%;
     position: fixed;
     top: 0;
     right: 0;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    margin-left: 18rem;
   }
 }
 
@@ -177,11 +189,13 @@ small {
   background-color: whitesmoke;
   color: #444444;
 }
-.sidebar-right section:first-child {
-  margin-top: 50% !important;
-}
-.sidebar-right section:last-child {
-  margin-bottom: 10% !important;
+@media screen and (min-width: 1100px) {
+  .sidebar-right section:first-child {
+    margin-top: 50% !important;
+  }
+  .sidebar-right section:last-child {
+    margin-bottom: 10% !important;
+  }
 }
 
 blockquote {
@@ -259,8 +273,25 @@ a:not(> img) {
 
 /* ::BPNY styles */
 /* ------------------------------------------------------------ */
-body.home .sidebar-right {
-  display: none;
+footer {
+  z-index: 1000;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 1em;
+}
+@media screen and (min-width: 1100px) {
+  footer {
+    background-color: white;
+  }
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+ul.posts li {
+  margin-bottom: 1em;
 }
 
 img {
@@ -318,6 +349,11 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
+hr {
+  width: 50%;
+  border-top-color: #ccc;
+}
+
 /* ::Import styles */
 /* ------------------------------------------------------------ */
 .font-body, body {
@@ -373,12 +409,12 @@ em, i, q {
   line-height: 1.1846154em;
 }
 
-.as-heading__normal, .is-typeset h4, blockquote h4 {
+.as-heading__normal, article.hentry h4, .is-typeset h4, blockquote h4 {
   font-size: 1.5em;
   line-height: 1.2833333em;
 }
 
-.as-heading__small, .is-typeset h5, blockquote h5 {
+.as-heading__small, article.hentry .list h5, article.hentry article h5, .is-typeset h5, blockquote h5 {
   font-size: 1.25em;
   line-height: 1.32em;
 }
@@ -419,11 +455,11 @@ em, i, q {
   margin: 0 0 0.5076923em 0;
 }
 
-.as-heading__normal--typeset, .is-typeset h4, blockquote h4 {
+.as-heading__normal--typeset, article.hentry h4, .is-typeset h4, blockquote h4 {
   margin: 0 0 0.55em 0;
 }
 
-.as-heading__small--typeset, .is-typeset h5, blockquote h5 {
+.as-heading__small--typeset, article.hentry article h5, .is-typeset h5, blockquote h5 {
   margin: 0 0 0.66em 0;
 }
 

@@ -1,6 +1,7 @@
 -
- name: About
- slug: about
+ name: News
+ slug: news
+
 -
  name: Journalism
  slug: journalism
