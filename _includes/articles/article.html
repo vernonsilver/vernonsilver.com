@@ -21,4 +21,9 @@
   <div class="sharing">
    {% include articles/sharing.html %}
   </div>  
+
+  {% if page.edit_link %}
+      {% include global/edit.html %}
+    {% endif %}
 </article>
+

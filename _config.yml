@@ -44,7 +44,7 @@ twitter_id: vtsilver
 
 #configuration options for http://prose.io editor
 prose:
-  siteurl: 'http://www.example.com'
+  siteurl: 'http://www.vernonsilver.pubspringdev1.com'
   #rooturl: '_posts'
   site: 
   media: 'assets/img'
@@ -70,19 +70,6 @@ prose:
           label: "Status"
           help: "Change to false if you don't want the post to be published"
           value: true
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          alterable: true
-          options:
-            - name: "Video"
-              value: "video"
-            - name: "News"
-              value: "news"
-            - name: "Books"
-              value: "books"
     _pages:
       - name: "layout"
         field:
