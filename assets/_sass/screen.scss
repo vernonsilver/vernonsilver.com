@@ -49,10 +49,10 @@ footer {
 	background-color:$sidebar-right-color-background;
 		
 		@include respond-to($sidebar-right-breakpoint, $IE9: false) {
-			background-color:$body-color;
+			//background-color:$body-color;
 			position:fixed;
 			bottom:0;
-			left:$sidebar-width + 3.5%;
+			right:1;
 		}
 
 		text-align:center;
