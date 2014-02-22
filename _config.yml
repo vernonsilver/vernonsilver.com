@@ -36,7 +36,7 @@ google_analytics_id:
 disqus_id:
 addthis_id: ra-52e194380e6e5e78
 # CONTACT FORM http://getsimpleform.com/
-simple_form_api_token: 57f94b63113c3daca6cee129dd495cf0
+simple_form_api_token: 
 
 # options (social)
 facebook_id: pages/The-Lost-Chalice/36279809755
@@ -49,87 +49,6 @@ prose:
   site: 
   media: 'assets/img'
   metadata:
-    _posts/books:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          placeholder: "Book Title"
-          value: "Book Title"
-      - name: "subtitle"
-        field:
-          element: "text"
-          label: "Subtitle"
-      - name: "name"
-        field:
-          element: "text"
-          label: "Name/Slug"
-          help: "lowercase title with dashes between words"
-          placeholder: "the-title-of-the-book"
-      - name: "permalink"
-        field:
-          element: "text"
-          label: "Permalink"
-          help: "/book/name-from-above"
-          placeholder: "/book/name-from-above"
-      - name: "pub_date"
-        field:
-          element: "text"
-          label: "Publication Date"
-          help: "format: YYYY-MM-DD"
-          placeholder: "2014-01-01"
-      - name: "isbn"
-        field:
-          element: "text"
-          label: "ISBN"
-          help: "13 Digit with no spaces"
-          placeholder: "978xxxxxxxxxx"
-      - name: "isbn_digital"
-        field:
-          element: "text"
-          label: "ISBN Digital"
-          help: "13 Digit with no spaces"
-          placeholder: "978xxxxxxxxxx"
-      - name: "asin"
-        field:
-          element: "text"
-          label: "Amazon ASIN"
-          help: "10 Digit with no spaces"
-      - name: "asin_kindle"
-        field:
-          element: "text"
-          label: "Amazon Kindle ASIN"
-          help: "10 Digit with no spaces"
-      - name: "publisher"
-        field:
-          element: "text"
-          label: "Publisher"
-      - name: "cover_image"
-        field:
-          element: "text"
-          label: "Cover Image"
-          help: "if different than isbn.jpg"
-          placeholder: "name.jpg"
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "book"
-      - name: "tags"
-        field:
-          element: "multiselect"
-          label: "Book Category"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Fiction"
-              value: "fiction"
-            - name: "Poetry"
-              value: "poetry"
-            - name: "Screenplay"
-              value: "screenplay"
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "book"
     _posts:
       - name: "layout"
         field:
