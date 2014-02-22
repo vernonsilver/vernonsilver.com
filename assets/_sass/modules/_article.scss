@@ -3,7 +3,7 @@ article.hentry {
     padding: 1rem;
     margin:auto;
     max-width: $d-vp;
-    min-height: $d-vp;
+    min-height: $c-vp;
     overflow: hidden;
 
     img {
@@ -63,7 +63,7 @@ blockquote {
 
 .content img:first-child {
 
-  @include respond-to($c-vp, $IE9: false) {
+  @include respond-to($b-vp, $IE9: false) {
   float: left;
   margin: .5rem 1.4rem 0 0; 
 
