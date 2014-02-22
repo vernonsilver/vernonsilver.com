@@ -38,6 +38,9 @@ addthis_id: ra-52e194380e6e5e78
 # CONTACT FORM http://getsimpleform.com/
 simple_form_api_token: 57f94b63113c3daca6cee129dd495cf0
 
+# options (social)
+facebook_id: pages/The-Lost-Chalice/36279809755
+twitter_id: vtsilver
 
 #configuration options for http://prose.io editor
 prose:

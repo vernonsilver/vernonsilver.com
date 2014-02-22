@@ -22,16 +22,16 @@
 
 
 
-<a href="https://www.facebook.com/pages/The-Lost-Chalice/36279809755" class="icon-facebook-squared">
-  <span aria-hidden="true" data-icon="&#x25a8;"></span>
+{% if site.facebook_id %}
+ <a href="https://www.facebook.com/{{site.facebook_id}}" class="icon-facebook-squared">
   <span class="screen-reader-text">Facebook</span>
-</a>
+  </a>
+{% endif %}
 
-
-<a href="https://twitter.com/vtsilver" class="icon-twitter-squared">
-  <span aria-hidden="true" data-icon="&#x25a8;"></span>
-  <span class="screen-reader-text">Twitter</span>
-</a>
-
+{% if site.twitter_id %}
+  <a href="https://twitter.com/{{site.twitter_id}}" class="icon-twitter-squared">
+    <span class="screen-reader-text">Twitter</span>
+  </a>
+{% endif %}
 
 </aside>
