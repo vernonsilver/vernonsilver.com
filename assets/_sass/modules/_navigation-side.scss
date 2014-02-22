@@ -33,7 +33,7 @@ $sidebar-right-color: #555 !default;
     }
 
     .sidebar-left {
-            
+
         width: 100%;
         height: auto;
         position: static;    
@@ -124,7 +124,7 @@ $sidebar-right-color: #555 !default;
     .sidebar-left {
 
         text-align: center;
-        padding: 2rem 1rem;
+        padding: 2rem 2rem;
         background-color: $sidebar-color-background;  
         color: $sidebar-color;
 
@@ -156,11 +156,14 @@ $sidebar-right-color: #555 !default;
       
       .sidebar-right {
         text-align: left;
-        padding: 2rem 1rem;
+        
+        padding: 2rem 4rem;
         background-color: $sidebar-right-color-background;
         color: $sidebar-right-color;
 
 @include respond-to($sidebar-right-breakpoint, $IE9: false) {
+
+        padding: 2rem 1rem;
 
         section:first-child {
           margin-top: 37% !important;

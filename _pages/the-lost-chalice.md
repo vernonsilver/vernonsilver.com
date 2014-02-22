@@ -20,9 +20,11 @@ short_description: 'An Oxford-trained archaeologist and award-winning journalist
 **—James L. Swanson, *New York Times* bestselling author of _Manhunt_**
 
 
-##### _Sotheby's. New York City. June 19, 1990_
+ 
 
 ![The Lost Chalice](/assets/img/cover_lostchalice_pb.jpg)
+**_Sotheby's. New York City. June 19, 1990_**
+
 Nothing of its kind had been sold to the public in more than a century. On this rainy June evening on Manhattan&#8217;s Upper East Side, with the auction-house showroom crammed with the wealthy, the curious, and the press, history was made when an anonymous man in a green golf sweater won the 2,500-year-old chalice. After that night, this historical artifact disappeared, its whereabouts a mystery. Until now.
 
 It is among the most prized of antiquities&#8212;the Greek artist Euphronios&#8217;s wine cup depicting the death of Zeus&#8217;s son Sarpedon at Troy. Its bigger twin, the legendary Euphronios Krater, was already famous as the centerpiece of the Metropolitan Museum of Art&#8217;s ancient collection. Lost for more than two millennia, the chalice&#8212;one of only six of its kind found intact&#8212;mysteriously surfaced in the collection of a Hollywood producer who sold it to a Texas billionaire. Coveted by obsessed private collectors, dealers, and museum curators, it was also of intense interest to the Italian police, who believed it belonged to the country where it had been dug up earlier in the 20th century.
