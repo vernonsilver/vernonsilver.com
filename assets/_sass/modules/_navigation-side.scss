@@ -163,7 +163,7 @@ $sidebar-right-color: #555 !default;
 @include respond-to($sidebar-right-breakpoint, $IE9: false) {
 
         section:first-child {
-          margin-top: 50% !important;
+          margin-top: 37% !important;
         }
 
         section:last-child {
