@@ -6,4 +6,3 @@ permalink: /news/
 include: snippets/news.html
 sharing: false
 ---
-News stuff

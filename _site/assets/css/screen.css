@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700);
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -90,14 +91,17 @@ small, footer {
   line-height: 1.4666667em;
 }
 
-.content img:first-child {
-  float: left;
-  margin: .5rem 1rem 0 0;
+@media screen and (min-width: 600px) {
+  .content img:first-child {
+    float: left;
+    margin: .5rem 1.4rem 0 0;
+  }
 }
 
 hr {
+  margin: 1em auto;
   border: 0;
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #EEEEEE;
 }
 
 .content {
@@ -115,6 +119,10 @@ hr {
   width: 100%;
   height: auto;
   position: static;
+  color: #777;
+}
+.sidebar-left a {
+  color: #505050;
 }
 @media screen and (min-width: 900px) {
   .sidebar-left {
@@ -165,7 +173,7 @@ hr {
   text-align: center;
   padding: 2rem 1rem;
   background-color: #222222;
-  color: #f6f6f6;
+  color: #a3a3a3;
   /* Sidebar nav */
 }
 .sidebar-left .sidebar-nav {
@@ -179,8 +187,12 @@ hr {
 .sidebar-left a.sidebar-nav-item:focus {
   text-decoration: underline;
 }
-.sidebar-left .sidebar-nav-item.active {
-  font-weight: bold;
+.sidebar-left .sidebar-nav-item.active a {
+  color: #4f4f4f;
+}
+.sidebar-left hr {
+  margin: 1em auto;
+  border-top: 1px solid #2a2a2a;
 }
 
 .sidebar-right {
@@ -213,6 +225,53 @@ blockquote.review .quote p:before {
 
 blockquote.review .quote p:after {
   content: '”';
+}
+
+.lighter input[type=text] {
+  border: 1px solid #d0d0d0;
+  background-color: #fcfcfc;
+}
+
+input[type=button], input[type=button]:hover {
+  position: relative;
+  left: -6px;
+  border: 1px solid #adc5cf;
+  background: #e4f1f9;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e4f1f9), color-stop(100%, #d5e7f3));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #e4f1f9 0%, #d5e7f3 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4f1f9', endColorstr='#d5e7f3',GradientType=0 );
+  /* IE6-9 */
+  color: #7da2aa;
+  cursor: pointer;
+}
+
+.rounded {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  color: #bcbcbc;
+}
+
+.search {
+  padding: 6px 15px 6px 30px;
+  margin: 3px;
+  background: url("./images/search.png") no-repeat 8px 6px;
 }
 
 .addthis_toolbox {
@@ -300,36 +359,100 @@ img {
   box-shadow: 0px 0px 5px #333333;
 }
 
-.btn {
-  display: inline-block;
-  margin-bottom: 0;
-  font-weight: 300;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  white-space: nowrap;
+body.book hr {
+  width: 50%;
 }
-.btn:hover, .btn:focus {
-  color: #666666;
+
+.sidebar-left h1 {
+  font-size: 56px;
+  margin-bottom: 1rem;
+}
+.sidebar-left h1 a {
+  color: #ababab;
+}
+
+.searchbox {
+  margin: 2em 0;
+}
+
+/* ::Import styles */
+/* ------------------------------------------------------------ */
+/*csslint outline-none:false*/
+.button {
+  font-family: inherit;
+  font-size: 100%;
+  *font-size: 90%;
+  /*IE 6/7 - To reduce IE's oversized button text*/
+  *overflow: visible;
+  /*IE 6/7 - Because of IE's overly large left/right padding on buttons */
+  padding: 0.5em 1em;
+  color: #444;
+  /* rgba not supported (IE 8) */
+  color: rgba(0, 0, 0, 0.8);
+  /* rgba supported */
+  *color: #444;
+  /* IE 6 & 7 */
+  border: 1px solid #999;
+  /*IE 6/7/8*/
+  border: none rgba(0, 0, 0, 0);
+  /*IE9 + everything else*/
+  background-color: #E6E6E6;
   text-decoration: none;
+  border-radius: 2px;
 }
-.btn:active, .btn.active {
+
+.button-hover,
+.button:hover,
+.button:focus {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000',GradientType=0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), color-stop(40%, rgba(0, 0, 0, 0.05)), to(rgba(0, 0, 0, 0.1)));
+  background-image: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.1));
+  background-image: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.05) 40%, rgba(0, 0, 0, 0.1));
+}
+
+.button:focus {
   outline: 0;
-  background-image: none;
-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+
+.button-active,
+.button:active {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset, 0 0 6px rgba(0, 0, 0, 0.2) inset;
+}
+
+.button[disabled],
+.button-disabled,
+.button-disabled:hover,
+.button-disabled:focus,
+.button-disabled:active {
+  border: none;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  filter: alpha(opacity=40);
+  -khtml-opacity: 0.40;
+  -moz-opacity: 0.40;
+  opacity: 0.40;
   cursor: not-allowed;
-  pointer-events: none;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=65);
-  opacity: 0.65;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
   box-shadow: none;
+}
+
+.button-hidden {
+  display: none;
+}
+
+/* Firefox: Get rid of the inner focus border */
+.button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+.button-primary,
+.button-selected,
+a.button-primary,
+a.button-selected {
+  background-color: #0078e7;
+  color: #fff;
 }
 
 .btn-block {
@@ -349,19 +472,12 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
-hr {
-  width: 50%;
-  border-top-color: #ccc;
+.font-var, small, footer {
+  font-family: 'Open Sans', "Helvetica Neueue", Helvetica, Verdana, Arial, sans-serif, sans-serif;
 }
 
-/* ::Import styles */
-/* ------------------------------------------------------------ */
 .font-body, body {
-  font-family: 'Open Sans', sans-serif, sans-serif;
-}
-
-.font-var {
-  font-family: Georgia, serif;
+  font-family: Lora, Georgia, "Droid Serif" serif;
 }
 
 p, span, cite, ol, ul, pre, label, input, textarea {

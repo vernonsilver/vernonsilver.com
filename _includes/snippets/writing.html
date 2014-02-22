@@ -1,5 +1,7 @@
 	<div id="entry-list" style="margin-top:.25em;">
-		<input type="text" class="search" placeholder="Search" />
+		<div class="searchbox lighter">
+			<input type="text" class="search rounded" placeholder="Search" />
+		</div>
 		<div class="list">	
 			{% for writing in site.data.writing limit:250 %}
 			<div>

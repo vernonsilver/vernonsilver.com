@@ -37,6 +37,12 @@ $sidebar-right-color: #555 !default;
         width: 100%;
         height: auto;
         position: static;    
+        color: #777;
+
+        a {
+          color: #505050;
+        }
+
             
         @include respond-to($sidebar-left-breakpoint, $IE9: false) {
           width: $sidebar-width;
@@ -134,9 +140,14 @@ $sidebar-right-color: #555 !default;
               a.sidebar-nav-item:focus {
                 text-decoration: underline;
               }
-              .sidebar-nav-item.active {
-                font-weight: bold;
+              .sidebar-nav-item.active a {
+                //font-weight: bold;
+                color: darken($sidebar-color, 33%);
               }
+              hr {
+                 margin:1em auto;
+                border-top: 1px solid lighten($sidebar-color-background, 3%);
+}
     }
 }
 

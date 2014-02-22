@@ -49,6 +49,7 @@ article h5 {
 small {
  //@extend .as-heading__smallest;
  @include adjust-font-size-to($kappa);   
+ @extend .font-var;
 }
 
 
@@ -61,8 +62,13 @@ blockquote {
 }
 
 .content img:first-child {
+
+  @include respond-to($c-vp, $IE9: false) {
   float: left;
   margin: .5rem 1.4rem 0 0; 
+
+  }
+  
 }
 
 
@@ -70,6 +76,7 @@ blockquote {
 hr {
   //margin-top:    @line-height-computed;
   //margin-bottom: @line-height-computed;
+  margin:1em auto;
   border: 0;
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #EEEEEE;
 }

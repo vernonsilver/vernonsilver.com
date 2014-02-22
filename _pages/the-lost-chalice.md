@@ -1,5 +1,6 @@
 ---
 layout: page
+category: book
 title: The Lost Chalice
 permalink: /book/the-lost-chalice/
 name: "the-lost-chalice"

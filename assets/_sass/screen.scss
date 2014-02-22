@@ -47,16 +47,14 @@ a {
 footer {
 	z-index:1000;
 	background-color:$sidebar-right-color-background;
+		
+		@include respond-to($sidebar-right-breakpoint, $IE9: false) {
+			background-color:$body-color;
+		}
 
-
-@include respond-to($sidebar-right-breakpoint, $IE9: false) {
-
-	background-color:$body-color;
-}
-
-	text-align:center;
-	padding:1em;
-	@extend small;
+		text-align:center;
+		padding:1em;
+		@extend small;
 }
 
 footer ul li {
@@ -71,20 +69,25 @@ ul.posts li {
 img {
 	@include single-box-shadow;
 }
-@import "add-ons/buttons";
-button {
-	//@extend button-base(false);
-	//@extend btn;
+
+body.book hr {
+	width:50%;
+	
 }
 
-hr {
-	width:50%;
-	border-top-color:#ccc;
+.sidebar-left h1{
+	font-size:56px;
+	margin-bottom:1rem;
+	a {
+		color: lighten($sidebar-color, 3%);
+	}
 }
+
+.searchbox {margin:2em 0;}
 
 /* ::Import styles */
 /* ------------------------------------------------------------ */
-
+@import "add-ons/buttons";
 @import "singularitygs";
 @import "libs/typography"; 					// Base level typography
 //@import "libs/forms";						// Forms
