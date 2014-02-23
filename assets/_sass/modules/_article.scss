@@ -80,3 +80,9 @@ hr {
   border: 0;
   border-top: 1px solid #EEEEEE;
 }
+
+.screen-reader-text { /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}

@@ -2,7 +2,9 @@ baseurl: http://www.vernonsilver.pubspringdev1.com
 sitename: 'Vernon Silver'
 tagline: 'A Jekyll Starter Site'
 description: 'Senior Writer at Bloomberg News in Rome'
-repo:  'https://github.com/...'
+# do not include  https://github.com/...
+repo: 'budparr/vernonsilver'
+branch: gh-pages 
 
 #Jekyll Options
 # if using more than one Jekyll instance on your local machine
