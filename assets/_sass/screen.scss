@@ -48,9 +48,9 @@ a {
   
 }
 
-// body.home .sidebar-right {
-// 	display:none;
-// }
+.edit-article, .edit-article a {
+	color: #CCC;
+}
 footer {
 	z-index:1000;
 	background-color:$sidebar-right-color-background;

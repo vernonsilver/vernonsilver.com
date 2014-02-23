@@ -1,7 +1,9 @@
 //=========== SHARING ====================
 @if $include-sharing-grayscale != false {
 	.addthis_toolbox {
-	  float:right !important;
+	  //float:right !important;
+	  text-align:center !important;
+	  margin: 5% 0 2% 0% !important;
 	}
 
 	.addthis_32x32_style .dummy .at300bs, .addthis_32x32_style .at300bs, .addthis_32x32_style .at15t, 
