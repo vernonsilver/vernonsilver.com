@@ -5,7 +5,7 @@
 
 {% if site.repo %}
 	<small>
-		<a class="" href="http://prose.io/#{{site.repo}}/edit/{{site.branch}}/{{ page.path }}">
+		<a class="" href="http://prose.io/#{{site.repo}}/edit/{{site.branch}}/{{ page.path }}" target="_blank">
 			<i class="fa fa-pencil-square-o icon-edit"></i>
 		</a>
 	</small>
@@ -14,7 +14,7 @@
 
 {% if page.edit_link %}
 	<small> 
-		<a class="" href="{{page.edit_link}}">|
+		<a class="" href="{{page.edit_link}}" target="_blank">|
 			{% if page.edit_link_text %}
 			    {{page.edit_link_text}}
 			    {% else %}
