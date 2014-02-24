@@ -5,6 +5,9 @@ article.hentry {
     max-width: $d-vp;
     //min-height: $c-vp;
     overflow: hidden;
+    header {
+      margin-bottom: .5em;
+    }
 
     img {
     	max-width: 100%;
