@@ -141,7 +141,7 @@ $sidebar-right-color: #555 !default;
               .sidebar-nav-item:hover,
               .sidebar-nav-item:focus {
                 text-decoration: underline;
-                background-color: darken($sidebar-color-background, 25%);
+                background-color: #000;//darken($sidebar-color-background, 25%);
               }
               .sidebar-nav-item.active a {
                 //font-weight: bold;
