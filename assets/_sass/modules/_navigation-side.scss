@@ -33,7 +33,7 @@ $sidebar-right-color: #555 !default;
     }
 
     .sidebar-left {
-
+      overflow: hidden;
         width: 100%;
         height: auto;
         position: static;    
@@ -77,6 +77,7 @@ $sidebar-right-color: #555 !default;
       }
 
       .sidebar-right {
+        overflow: hidden;
             z-index: 1000;
         width: 100%;
         height: auto;
