@@ -6,7 +6,7 @@
 			{% for writing in site.data.writing limit:250 %}
 			<div>
 				<small class="category">{{ writing.category }}</small><br />
-					<h5 class="title">{{ writing.title }}"</h5>
+					<h5 class="title">{{ writing.title }}</h5>
 							<small class="publication">
 								{{ writing.date | date: "%B %d, %Y" }}
 								{% if writing.link_to_original %}
