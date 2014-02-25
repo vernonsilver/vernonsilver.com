@@ -43,7 +43,7 @@ a {
 /* ------------------------------------------------------------ */
 
 .sidebar-left {
-	background-color:$sidebar-color-background;
+	 background-color:$sidebar-color-background;
 	 background: $sidebar-color-background url(/assets/img/Euphronios_krater-478x972.jpg) no-repeat 50% top;
   
 }
@@ -86,7 +86,7 @@ body.book hr {
 }
 
 .sidebar-left h1{
-	font-size:46px;
+	font-size:43px;
 	margin-bottom:1rem;
 	a {
 		color: lighten($sidebar-color, 26%);
