@@ -45,7 +45,7 @@ twitter_id: vtsilver
 
 #configuration options for http://prose.io editor
 prose:
-  siteurl: 'http://www.vernonsilver.pubspringdev1.com'
+  siteurl: 'http://github.io/vernonsilver'
   #rooturl: '_posts'
   site: 
   media: 'assets/img'
