@@ -5,7 +5,7 @@ permalink: /journalism/
 # include: snippets/form-contact.html
 include: snippets/writing.html
 sharing: false
-edit_link: http://prose.io/#budparr/vernonsilver/edit/gh-pages/_data/writing.yaml
+edit_link: http://prose.io/#vernonsilver/vernonsilver.github.io/gh-pages/_data/writing.yaml
 ---
 In addition to the articles below I contribute to the following projects:  
 
