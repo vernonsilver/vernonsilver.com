@@ -2,8 +2,8 @@ baseurl: http://github.io/vernonsilver
 sitename: 'Vernon Silver'
 description: 'Journalist, Archaeologist'
 # do not include  https://github.com/...
-repo: 'budparr/vernonsilver'
-branch: gh-pages 
+repo: ' vernonsilver / vernonsilver.github.io'
+branch: master
 
 #Jekyll Options
 # if using more than one Jekyll instance on your local machine
