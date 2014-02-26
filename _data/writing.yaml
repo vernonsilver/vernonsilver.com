@@ -1,6 +1,6 @@
 - 
   title: "this is a test"
-  date: 2014-02-27
+  date: 2014-02-10
   publication: "Test"
   
 - 
@@ -88,8 +88,8 @@
   category: Cyber
 
 -
- title: "The Marx[ist] Brothers"
- date: 1994-11-01
- publication: SPY
- link_to_original: http://books.google.it/books?id=VMu80ElF7xEC&lpg=PA3&dq=spy%20magazine%20fidel&pg=PA78#v=onepage&q=spy%20magazine%20fidel&f=false
- category: Finance
+  title: "The Marx[ist] Brothers"
+  date: 1994-11-01
+  publication: SPY
+  link_to_original: http://books.google.it/books?id=VMu80ElF7xEC&lpg=PA3&dq=spy%20magazine%20fidel&pg=PA78#v=onepage&q=spy%20magazine%20fidel&f=false
+  category: Finance
