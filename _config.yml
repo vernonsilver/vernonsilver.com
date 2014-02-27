@@ -66,8 +66,13 @@ prose:
           element: "hidden"
       - name: "category"
         field:
-          element: "hidden"
-          value: "posts"
+          element: "select"
+          label: "Published Status"
+          options:
+            - name: "News"
+              value: "news"
+            - name: "Media"
+              value: "media"
       - name: published
         field:
           element: "text"
