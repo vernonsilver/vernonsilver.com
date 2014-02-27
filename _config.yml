@@ -51,20 +51,23 @@ prose:
   media: 'assets/img'
   metadata:
     _posts:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "posts"
       - name: "title"
         field:
           element: "text"
           label: "Title"
           placeholder: "Title"
           value: "Title"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "date"
+        field:
+          element: "hidden"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "posts"
       - name: published
         field:
           element: "text"
