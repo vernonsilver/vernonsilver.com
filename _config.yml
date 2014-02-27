@@ -95,7 +95,7 @@ prose:
       - name: sharing
         field:
           element: "text"
-          label: "Status"
+          label: "Add Sharing Buttons to this page?"
           help: "Change to true if you want sharing buttons to show up on the page."
           value: false
 

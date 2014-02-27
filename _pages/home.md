@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Vernon Silver
-# include: snippets/form-contact.html
 permalink: /
 include: snippets/news-item.html
 sharing: false

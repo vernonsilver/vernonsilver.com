@@ -4,13 +4,9 @@ category: book
 title: The Lost Chalice
 permalink: /book/the-lost-chalice/
 name: "the-lost-chalice"
-publisher: 
-  - William Morrow Paperbacks
+publisher: "William Morrow Paperbacks"
 isbn: 9780061558290
 asin_kindle: B002BD2V10
-cover_image: "cover_lostchalice_pb.jpg"
-sm_show_books_buy_button: 
-  - 0
 subtitle: "The Real-Life Chase for One of the World's Rarest Masterpieces - a Priceless 2,500-Year-Old Artifact Depicting the Fall of Troy"
 short_description: 'An Oxford-trained archaeologist and award-winning journalist based in Rome, Vernon Silver brings us <em>The Lost Chalice</em>, the electrifying true story of the race to secure a priceless, 2,500-year-old cup depicting the fall of Troy—a lost treasure crafted by Euphronios, an artist widely considered “the Leonardo Da Vinci of ancient Greece.” A gripping, real life mystery, <em>The Lost Chalice</em> gives readers a behind-the-scenes look at the inner workings of great museums and antiquities collections—exposing a world of greed, backstabbing, and double-dealing.'
 ---
