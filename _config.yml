@@ -87,12 +87,16 @@ prose:
           element: "text"
           label: "Link"
           help: "/page-name/"
-      - name: show_in_menu
+      - name: include
         field:
-          element: "select"
-          label: "Show in Menu?"
-          options:
-            - name: "True"
-              value: 'true'
-            - name: "False"
-              value: 'false'
+          label: 'Include Snippet'
+          element: "text"
+          label: "snippet"
+      - name: sharing
+        field:
+          element: "text"
+          label: "Status"
+          help: "Change to true if you want sharing buttons to show up on the page."
+          value: false
+
+      
