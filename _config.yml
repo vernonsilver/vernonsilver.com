@@ -49,6 +49,19 @@ prose:
   #rooturl: '_posts'
   site: 
   media: 'assets/img'
+  ignore:
+    - .gitignore
+    - 404.html
+    - CNAME
+    - atom.xml
+    - favicon.ico
+    - license.md
+    - readme.md
+    - robots.txt
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_site
   metadata:
     _posts:
       - name: "title"
