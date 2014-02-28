@@ -3,7 +3,7 @@ layout: page
 title: Vernon Silver
 permalink: /
 include: "snippets/news-item.html"
-sharing: "false"
+sharing: false
 published: 
   - true
   - "true"
