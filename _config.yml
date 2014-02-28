@@ -59,6 +59,7 @@ prose:
     - readme.md
     - robots.txt
     - _config.yml
+    - /assets
     - /_layouts
     - /_includes
     - /_site
