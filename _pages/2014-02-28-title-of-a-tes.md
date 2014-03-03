@@ -5,6 +5,7 @@ published:
   - "true"
 title: Title of a TeS
 sharing: "false"
+permalink: /test/
 ---
 
 ## A New Post
