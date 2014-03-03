@@ -64,32 +64,6 @@ prose:
     - /_includes
     - /_site
   metadata:
-      - name: "layout"
-        field:
-          element: "hidden"
-          value: "page"
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          placeholder: "Title"
-          value: "Title"
-      - name: permalink
-        field:
-          element: "text"
-          label: "Link"
-          help: "/page-name/"
-      - name: include
-        field:
-          label: 'Include Snippet'
-          element: "text"
-          label: "snippet"
-      - name: sharing
-        field:
-          element: "text"
-          label: "Add Sharing Buttons to this page?"
-          help: "Change to true if you want sharing buttons to show up on the page."
-          value: false
     _posts:
       - name: "title"
         field:
@@ -116,3 +90,30 @@ prose:
               value: "news"
             - name: "Media"
               value: "media"
+    _pages:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Title"
+          value: "Title"
+      - name: permalink
+        field:
+          element: "text"
+          label: "Link"
+          help: "/page-name/"
+      - name: include
+        field:
+          label: 'Include Snippet'
+          element: "text"
+          label: "snippet"
+      - name: sharing
+        field:
+          element: "text"
+          label: "Add Sharing Buttons to this page?"
+          help: "Change to true if you want sharing buttons to show up on the page."
+          value: false
