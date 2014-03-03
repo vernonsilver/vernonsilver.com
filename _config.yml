@@ -89,7 +89,7 @@ prose:
               value: "media"
       - name: published
         field:
-          element: "text"
+          element: "checkbox"
           label: "Status"
           help: "Change to false if you don't want the post to be published"
           value: true
