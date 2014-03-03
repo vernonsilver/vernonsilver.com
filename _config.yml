@@ -123,11 +123,3 @@ prose:
           label: "Add Sharing Buttons to this page?"
           help: "Change to true if you want sharing buttons to show up on the page."
           value: false
-      - name: published
-        field:
-          help: "Change to false if you don't want the post to be published"
-          element: "select"
-          label: "Published Status"
-          options:
-            - value: "true"
-            - value: "false"
