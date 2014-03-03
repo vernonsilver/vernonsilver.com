@@ -2,7 +2,7 @@
 title: "Providence Journal: “Vernon Silver’s fascinating account”"
 layout: page
 date: 2009-07-18
-# permalink: providence-journal-vernon-silvers-fascinating-account
+old_permalink: providence-journal-vernon-silvers-fascinating-account
 category: media
 ---
 > ...a world of incredible secrecy, where art rises into view only to disappear for decades, where sales are anonymous, museum officials turn blind eyes, and where beauty is measured in dollars and euros.

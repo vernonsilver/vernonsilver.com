@@ -2,7 +2,7 @@
 title: "The New York Times: A Greek Urn’s Underworld"
 layout: page
 date: 2009-07-07
-# permalink: the-new-york-times-a-greek-urns-underworld
+old_permalink: the-new-york-times-a-greek-urns-underworld
 category: media
 ---
 “The Lost Chalice: The Epic Hunt for a Priceless Masterpiece,” just published by William Morrow, makes a first-class page turner out of the stolen krater’s travels from ancient Greece to Etruscan Italy to New York and then back here — and of the travails of another work also by the sublime Euphronios, a kylix, or chalice, which was looted from the same spot here in Cerveteri, a town northwest of Rome.

@@ -2,7 +2,7 @@
 title: "An Etruscan Lord Elgin"
 layout: page
 date: 2010-05-08
-# permalink: an-etruscan-lord-elgin
+old_permalink: an-etruscan-lord-elgin
 category: news
 ---
 In a compelling twist, Michael Kimmelman shows how Italy winning back the Krater makes a good argument for the British Museum keeping the Parthenon Marbles: 

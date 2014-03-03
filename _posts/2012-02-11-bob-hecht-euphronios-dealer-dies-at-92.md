@@ -2,7 +2,7 @@
 title: "Bob Hecht, Euphronios Dealer, Dies at 92"
 layout: page
 date: 2012-02-11
-# permalink: bob-hecht-euphronios-dealer-dies-at-92
+old_permalink: bob-hecht-euphronios-dealer-dies-at-92
 category: news
 ---
 ![Hecht in Rome](/assets/img/Robert_Hecht.jpg)

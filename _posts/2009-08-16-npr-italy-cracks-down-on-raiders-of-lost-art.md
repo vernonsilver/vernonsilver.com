@@ -2,7 +2,7 @@
 title: "NPR: Italy Cracks Down on Raiders of Lost Art"
 layout: page
 date: 2009-08-16
-# permalink: npr-italy-cracks-down-on-raiders-of-lost-art
+old_permalink: npr-italy-cracks-down-on-raiders-of-lost-art
 category: media
 ---
 NPR’s Sylvia Poggioli reports: 

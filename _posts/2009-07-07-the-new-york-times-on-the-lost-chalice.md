@@ -2,7 +2,7 @@
 title: "The New York Times on “The Lost Chalice”"
 layout: page
 date: 2009-07-07
-# permalink: the-new-york-times-on-the-lost-chalice
+old_permalink: the-new-york-times-on-the-lost-chalice
 category: news
 ---
 ![Vernon at the tomb](/assets/img/abroad2_650.jpg)  

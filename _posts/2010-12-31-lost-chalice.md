@@ -2,7 +2,7 @@
 title: "Lost Chalice Found—and Fixed"
 layout: page
 date: 2010-12-31
-# permalink: lost-chalice
+old_permalink: lost-chalice
 category: news
 ---
 ![Once shattered, on display for first time in 20 years](/assets/img/KylixVillaGiulia.jpg)

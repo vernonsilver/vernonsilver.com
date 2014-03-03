@@ -2,7 +2,7 @@
 title: "Met’s von Bothmer Dies at 90"
 layout: page
 date: 2009-10-17
-# permalink: mets-von-bothmer-dies-at-90
+old_permalink: mets-von-bothmer-dies-at-90
 category: news
 ---
 ![Dietrich von Bothmer](/assets/img/botmerspan.jpg)

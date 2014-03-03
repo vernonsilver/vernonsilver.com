@@ -2,7 +2,7 @@
 title: "Hoving Takes On The Getty"
 layout: page
 date: 2009-06-17
-# permalink: hoving-takes-on-the-getty
+old_permalink: hoving-takes-on-the-getty
 category: news
 ---
 Thomas Hoving, the former Met director, has been publishing his memoirs online. A recent chapter takes on fakes, fraud and repatriation from some big museums.

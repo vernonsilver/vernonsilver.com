@@ -2,7 +2,7 @@
 title: 'Troy’s Gold and Bob Hecht'
 layout: page
 date: 2010-01-31
-# permalink: troys-gold-and-bob-hecht
+old_permalink: troys-gold-and-bob-hecht
 category: news
 ---
 ![Hecht in Rome](/assets/img/Robert_Hecht.jpg)

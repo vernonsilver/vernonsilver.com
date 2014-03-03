@@ -2,7 +2,7 @@
 title: "Krater Pulled From Auction in New York"
 layout: page
 date: 2009-06-04
-# permalink: krater-pulled-from-auction-in-new-york
+old_permalink: krater-pulled-from-auction-in-new-york
 category: news
 ---
 U.S. Customs says a krater got yanked from auction in New York, in part because of its possible link to a certain Roman art dealer:

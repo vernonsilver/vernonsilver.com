@@ -2,7 +2,7 @@
 title: 'The Daily Beast: “The Tomb Robbers”'
 layout: page
 date: 2009-06-01
-# permalink: the-tomb-robbers
+old_permalink: the-tomb-robbers
 category: media
 ---
 > On the trail of a looted chalice, Vernon Silver exposes the dark side of the antiquities trade, from tomb robbers in Italy to museum curators in New York and Los Angeles.

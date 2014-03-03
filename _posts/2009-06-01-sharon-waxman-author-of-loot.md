@@ -2,7 +2,7 @@
 title: "Sharon Waxman, author of Loot"
 layout: page
 date: 2009-06-01
-# permalink: sharon-waxman-author-of-loot
+old_permalink: sharon-waxman-author-of-loot
 category: media
 ---
 > “Setting up his tale as a mystery to be solved Silver takes a micro approach to a great big problem, that of looted antiquities in modern times... a welcome glimpse into the modern, secret journey of such ancient objects.”

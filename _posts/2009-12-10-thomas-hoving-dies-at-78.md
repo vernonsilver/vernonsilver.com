@@ -2,7 +2,7 @@
 title: "Thomas Hoving, Met Chief and Journalist, Dies"
 layout: page
 date: 2009-12-10
-# permalink: thomas-hoving-dies-at-78
+old_permalink: thomas-hoving-dies-at-78
 category: news
 ---
 ![Thomas Hoving (NYT)](/assets/img/popup.jpg)
