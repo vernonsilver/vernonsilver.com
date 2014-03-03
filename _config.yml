@@ -78,6 +78,9 @@ prose:
       - name: "date"
         field:
           element: "hidden"
+      - name: old_permalink
+        field:
+          element: "hidden"
       - name: "category"
         field:
           element: "select"
