@@ -81,7 +81,7 @@ prose:
       - name: "category"
         field:
           element: "select"
-          label: "Published Status"
+          label: "Category"
           options:
             - name: "News"
               value: "news"
