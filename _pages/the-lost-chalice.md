@@ -2,14 +2,17 @@
 layout: page
 category: book
 title: The Lost Chalice
-permalink: /book/the-lost-chalice/
+permalink: "/book/the-lost-chalice/"
 name: "the-lost-chalice"
-publisher: "William Morrow Paperbacks"
+publisher: William Morrow Paperbacks
 isbn: 9780061558290
 asin_kindle: B002BD2V10
 subtitle: "The Real-Life Chase for One of the World's Rarest Masterpieces - a Priceless 2,500-Year-Old Artifact Depicting the Fall of Troy"
-short_description: 'An Oxford-trained archaeologist and award-winning journalist based in Rome, Vernon Silver brings us <em>The Lost Chalice</em>, the electrifying true story of the race to secure a priceless, 2,500-year-old cup depicting the fall of Troy—a lost treasure crafted by Euphronios, an artist widely considered “the Leonardo Da Vinci of ancient Greece.” A gripping, real life mystery, <em>The Lost Chalice</em> gives readers a behind-the-scenes look at the inner workings of great museums and antiquities collections—exposing a world of greed, backstabbing, and double-dealing.'
+short_description: "An Oxford-trained archaeologist and award-winning journalist based in Rome, Vernon Silver brings us <em>The Lost Chalice</em>, the electrifying true story of the race to secure a priceless, 2,500-year-old cup depicting the fall of Troy—a lost treasure crafted by Euphronios, an artist widely considered “the Leonardo Da Vinci of ancient Greece.” A gripping, real life mystery, <em>The Lost Chalice</em> gives readers a behind-the-scenes look at the inner workings of great museums and antiquities collections—exposing a world of greed, backstabbing, and double-dealing."
+published: true
+sharing: true
 ---
+
 #### The Real-Life Chase for One of the World's Rarest Masterpieces - a Priceless 2,500-Year-Old Artifact Depicting the Fall of Troy
 
 > "A riveting story of tomb robbers and antiquities smugglers, high-stakes auctioneers and the princely chiefs of the world’s most prestigious museums….A terrific read, from start to finish."  
@@ -73,5 +76,3 @@ As Silver learns, the discovery of the chalice exposes another riddle&#8212;and 
 			
 >“Setting up his tale as a mystery to be solved Silver takes a micro approach to a great big problem, that of looted antiquities in modern times... a welcome glimpse into the modern, secret journey of such ancient objects.”  
 **— Sharon Waxman, author of *Loot***
-
-
