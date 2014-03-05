@@ -46,12 +46,7 @@ prose:
               value: "news"
             - name: "Media"
               value: "media"
-      - name: published
-        field:
-          element: "checkbox"
-          label: "Published?"
-          value: true
-    _pages:
+  _pages:
       - name: "layout"
         field:
           element: "hidden"
@@ -79,8 +74,3 @@ prose:
           label: "Add Sharing Buttons to this page?"
           help: "Check if you want sharing buttons to show up on the page."
           value: false
-      - name: published
-        field:
-          element: "checkbox"
-          label: "Published?"
-          value: true
