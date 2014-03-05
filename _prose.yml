@@ -46,7 +46,7 @@ prose:
               value: "news"
             - name: "Media"
               value: "media"
-  _pages:
+    _pages:
       - name: "layout"
         field:
           element: "hidden"
