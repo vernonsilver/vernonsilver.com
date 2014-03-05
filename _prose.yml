@@ -47,7 +47,7 @@ prose:
             - name: "Media"
               value: "media"
       - name: status
-        field:
+         field:
          element: "checkbox"
           label: "Published?"
           value: true
@@ -83,4 +83,4 @@ prose:
          field:
           element: "checkbox"
           label: "Published?"
-            value: true
+          value: true
