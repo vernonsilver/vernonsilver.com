@@ -46,6 +46,10 @@ prose:
               value: "news"
             - name: "Media"
               value: "media"
+      - name: status
+        field:
+          element: "checkbox"
+          value: true
     _pages:
       - name: "layout"
         field:
@@ -74,3 +78,7 @@ prose:
           label: "Add Sharing Buttons to this page?"
           help: "Check if you want sharing buttons to show up on the page."
           value: false
+      - name: status
+          field:
+            element: "checkbox"
+            value: true
