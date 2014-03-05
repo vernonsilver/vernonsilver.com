@@ -21,6 +21,11 @@ prose:
     - /_site
   metadata:
     _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          placeholder: "Put your title here"
       - name: "layout"
         field:
           element: "hidden"
