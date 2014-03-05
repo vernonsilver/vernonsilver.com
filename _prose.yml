@@ -30,9 +30,6 @@ prose:
         field:
           element: "hidden"
           value: "page"
-      - name: "date"
-        field:
-          element: "hidden"
       - name: old_permalink
         field:
           element: "hidden"
