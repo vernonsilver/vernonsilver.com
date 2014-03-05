@@ -48,7 +48,8 @@ prose:
               value: "media"
       - name: status
         field:
-          element: "checkbox"
+         element: "checkbox"
+          label: "Published?"
           value: true
     _pages:
       - name: "layout"
@@ -79,6 +80,7 @@ prose:
           help: "Check if you want sharing buttons to show up on the page."
           value: false
       - name: status
-          field:
-            element: "checkbox"
+         field:
+          element: "checkbox"
+          label: "Published?"
             value: true
