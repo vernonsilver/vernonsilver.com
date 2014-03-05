@@ -21,12 +21,6 @@ prose:
     - /_site
   metadata:
     _posts:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          placeholder: "Title"
-          value: "Title"
       - name: "layout"
         field:
           element: "hidden"
