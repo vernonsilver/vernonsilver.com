@@ -3,7 +3,7 @@
       http://ogp.me/
     {% endcomment %}
 
-    <meta name="description" content="{% if page.tagline %}{{page.tagline}}{% endif %}">
+    <meta name="description" content="{% if site.description %}{{site.description}}{% endif %}">
 
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
