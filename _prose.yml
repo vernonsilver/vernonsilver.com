@@ -1,8 +1,6 @@
 #configuration options for http://prose.io editor
 prose:
-  siteurl: 'http://vernonsilver.com'
-  #rooturl: '_posts'
-  site:
+  siteurl: 'http://vernonsilver.com/'
   media: 'assets/img'
   ignore:
     - .gitignore
