@@ -40,7 +40,6 @@ prose:
       - name: 'old_permalink'
         field:
           element: 'hidden'
-          value: ''
     _pages:
       - name: 'layout'
         field:
