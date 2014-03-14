@@ -2,7 +2,7 @@ baseurl: http://vernonsilver.com
 sitename: 'Vernon Silver'
 description: 'Journalist, Archaeologist'
 # do not include  https://github.com/...
-repo: 'vernonsilver/vernonsilver.github.io'
+repo: 'VernonSilverweb/vernonsilver.com'
 branch: master
 
 #Jekyll Options
