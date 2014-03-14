@@ -1,7 +1,7 @@
 ---
 old_permalink: ""
 layout: page
-published: false
+published: true
 title: This is a test post.
 category: media
 ---
