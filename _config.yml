@@ -3,7 +3,7 @@ sitename: 'Vernon Silver'
 description: 'Journalist, Archaeologist'
 # do not include  https://github.com/...
 repo: 'VernonSilverweb/vernonsilver.com'
-branch: master
+branch: gh-pages
 
 #Jekyll Options
 # if using more than one Jekyll instance on your local machine
