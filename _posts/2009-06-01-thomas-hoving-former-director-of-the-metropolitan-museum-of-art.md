@@ -1,7 +1,6 @@
 ---
 title: "Thomas Hoving, former director of the Metropolitan Museum of Art"
 layout: page
-date: 2009-06-01
 old_permalink: thomas-hoving-former-director-of-the-metropolitan-museum-of-art
 category: media
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'Troy’s Gold and Bob Hecht'
 layout: page
-date: 2010-01-31
 old_permalink: troys-gold-and-bob-hecht
 category: news
 ---

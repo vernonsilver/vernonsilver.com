@@ -1,7 +1,6 @@
 ---
 title: "Providence Journal: “Vernon Silver’s fascinating account”"
 layout: page
-date: 2009-07-18
 old_permalink: providence-journal-vernon-silvers-fascinating-account
 category: media
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Wall Street Journal: A Celebrity in Low-Key Digs"
 layout: page
-date: 2009-10-01
 old_permalink: wall-street-journal-a-celebrity-in-low-key-digs
 category: media
 ---

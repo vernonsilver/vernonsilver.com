@@ -1,7 +1,6 @@
 ---
 title: "How eBay Fakes May Be Saving Tombs"
 layout: page
-date: 2009-06-24
 old_permalink: how-ebay-fakes-may-be-saving-tombs
 category: news
 ---

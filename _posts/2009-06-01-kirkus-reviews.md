@@ -1,7 +1,6 @@
 ---
 title: "Kirkus Reviews"
 layout: page
-date: 2009-06-01
 old_permalink: kirkus-reviews
 category: media
 ---

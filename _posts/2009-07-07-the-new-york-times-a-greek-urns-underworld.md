@@ -1,7 +1,6 @@
 ---
 title: "The New York Times: A Greek Urn’s Underworld"
 layout: page
-date: 2009-07-07
 old_permalink: the-new-york-times-a-greek-urns-underworld
 category: media
 ---

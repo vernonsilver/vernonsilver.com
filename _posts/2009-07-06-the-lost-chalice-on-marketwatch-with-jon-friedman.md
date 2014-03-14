@@ -1,7 +1,6 @@
 ---
 title: "“The Lost Chalice” on MarketWatch with Jon Friedman"
 layout: page
-date: 2009-07-06
 old_permalink: the-lost-chalice-on-marketwatch-with-jon-friedman
 category: media
 ---

@@ -1,7 +1,6 @@
 ---
 title: "The Lost Chalice Released Today"
 layout: page
-date: 2009-06-01
 old_permalink: the-lost-chalice-released-today
 category: news
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Krater Pulled From Auction in New York"
 layout: page
-date: 2009-06-04
 old_permalink: krater-pulled-from-auction-in-new-york
 category: news
 ---

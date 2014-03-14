@@ -1,11 +1,10 @@
 ---
 title: "NPR: Italy Cracks Down on Raiders of Lost Art"
 layout: page
-date: 2009-08-16
 old_permalink: npr-italy-cracks-down-on-raiders-of-lost-art
 category: media
 ---
-NPR’s Sylvia Poggioli reports: 
+NPR’s Sylvia Poggioli reports:
 
 > “The expert who helped nail down the exact spot where the pot was found is Vernon Silver, an American journalist with a degree in archaeology from Oxford. His new book, The Lost Chalice, traces the story of the looted vase’s travels from a tomb in Italy to Switzerland to New York and back to Italy through the labyrinthine world of smugglers and shady dealers in an illicit trade that fed a network of American collectors and institutions.”
 

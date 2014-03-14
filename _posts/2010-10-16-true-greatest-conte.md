@@ -1,7 +1,6 @@
 ---
 title: "True: “greatest contempt” for Getty"
 layout: page
-date: 2010-10-16
 old_permalink: true-greatest-conte
 category: news
 ---

@@ -1,7 +1,6 @@
 ---
 title: 'The Daily Beast: “The Tomb Robbers”'
 layout: page
-date: 2009-06-01
 old_permalink: the-tomb-robbers
 category: media
 ---

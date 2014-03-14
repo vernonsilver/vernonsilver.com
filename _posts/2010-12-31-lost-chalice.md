@@ -1,7 +1,6 @@
 ---
 title: "Lost Chalice Found—and Fixed"
 layout: page
-date: 2010-12-31
 old_permalink: lost-chalice
 category: news
 ---

@@ -1,7 +1,6 @@
 ---
 title: "Publishers Weekly"
 layout: page
-date: 2009-05-31
 old_permalink: publishers-weekly
 category: media
 ---

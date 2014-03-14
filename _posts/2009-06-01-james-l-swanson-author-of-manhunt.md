@@ -1,7 +1,6 @@
 ---
 title: "James L. Swanson, author of Manhunt"
 layout: page
-date: 2009-06-01
 old_permalink: james-l.-swanson-author-of-manhunt
 category: media
 ---
