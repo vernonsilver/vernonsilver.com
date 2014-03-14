@@ -2,7 +2,6 @@
 old_permalink: "the-new-york-times-polk-award-for-silver"
 layout: page
 title: "The New York Times: Polk Award for Silver"
-date: {}
 category: media
 published: true
 ---
