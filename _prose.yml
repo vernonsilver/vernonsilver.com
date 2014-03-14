@@ -18,28 +18,6 @@ prose:
     - /_includes
     - /_site
   metadata:
-    _posts:
-      - name: 'title'
-        field:
-          element: 'text'
-          label: 'Title'
-          placeholder: 'Put your title here'
-      - name: 'layout'
-        field:
-          element: 'hidden'
-          value: 'page'
-      - name: 'old_permalink'
-        field:
-          element: 'hidden'
-      - name: 'category'
-        field:
-          element: 'select'
-          label: 'Category'
-          options:
-            - name: 'News'
-              value: 'news'
-            - name: 'Media'
-              value: 'media'
     _pages:
       - name: 'layout'
         field:
