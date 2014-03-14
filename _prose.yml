@@ -28,9 +28,15 @@ prose:
         field:
           element: 'hidden'
           value: 'page'
-      - name: 'old_permalink'
+      - name: 'category'
         field:
-          element: 'hidden'
+          element: 'select'
+          label: 'Category'
+          options:
+            - name: 'News'
+              value: 'news'
+            - name: 'Media'
+              value: 'media'
     _pages:
       - name: 'layout'
         field:
