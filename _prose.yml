@@ -28,6 +28,9 @@ prose:
         field:
           element: 'hidden'
           value: 'page'
+      - name: 'old_permalink'
+          field:
+            element: 'hidden'
     _pages:
       - name: 'layout'
         field:
