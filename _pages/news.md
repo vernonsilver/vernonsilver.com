@@ -9,3 +9,4 @@ edit_link_text: Add a new News Post
 published: true
 ---
 
+test.
