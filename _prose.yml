@@ -24,6 +24,10 @@ prose:
           element: 'text'
           label: 'Title'
           placeholder: 'Put your title here'
+      - name: 'published'
+        field:
+          element: 'hidden'
+          value: 'true'
       - name: 'layout'
         field:
           element: 'hidden'
