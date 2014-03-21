@@ -10,4 +10,4 @@ category: media
 
 ![model-008.jpg](/assets/img/model-008.jpg)
 
-**Enter** text in [Markdown](http://daringfireball.net/projects/markdown/). Use the _toolbar_ above, or click the **?** button for formatting help.
+[Markdown](http://daringfireball.net/projects/markdown/). Use the _toolbar_ above, or click the **?** button for formatting help.
