@@ -2,10 +2,13 @@
 layout: page
 title: Journalism
 permalink: /journalism/
-include: "snippets/writing.html"
+include: snippets/writing.html
 sharing: false
 edit_link: "http://prose.io/#VernonSilverweb/vernonsilver.com/edit/gh-pages/_data/writing.yaml"
+published: true
 ---
+
+![linnullmann.no.jpg](/assets/img/linnullmann.no.jpg)
 In addition to the articles below I contribute to the following projects:  
 
 ["Wired for Repression" at Bloomberg](http://topics.bloomberg.com/wired-for-repression/)
