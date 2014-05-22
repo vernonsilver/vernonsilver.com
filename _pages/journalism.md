@@ -10,10 +10,10 @@ published: true
 
 [Bloomberg Businessweek stories](http://www.businessweek.com/authors/2518-vernon-silver)
 
-In addition to the articles below I contribute to the following projects:  
+In addition to the articles below I've contributed to the following Bloomberg projects:  
 
-["Wired for Repression" at Bloomberg](http://topics.bloomberg.com/wired-for-repression/)
+["Wired for Repression"](http://topics.bloomberg.com/wired-for-repression/)
 
-["Unsafe at any Bitrate" at Bloomberg](http://topics.bloomberg.com/unsafe-at-any-bitrate/)
+["Unsafe at any Bitrate"](http://topics.bloomberg.com/unsafe-at-any-bitrate/)
 
-["Gold Shafted" at Bloomberg](http://topics.bloomberg.com/gold-shafted/)
+["Gold Shafted"](http://topics.bloomberg.com/gold-shafted/)
