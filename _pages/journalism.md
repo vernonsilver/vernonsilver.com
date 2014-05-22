@@ -8,6 +8,8 @@ edit_link: "http://prose.io/#VernonSilverweb/vernonsilver.com/edit/gh-pages/_dat
 published: true
 ---
 
+[Bloomberg Businessweek stories](http://www.businessweek.com/authors/2518-vernon-silver)
+
 In addition to the articles below I contribute to the following projects:  
 
 ["Wired for Repression" at Bloomberg](http://topics.bloomberg.com/wired-for-repression/)
