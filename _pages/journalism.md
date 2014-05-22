@@ -10,7 +10,7 @@ published: true
 
 [Bloomberg Businessweek stories](http://www.businessweek.com/authors/2518-vernon-silver)
 
-In addition to the articles below I've contributed to the following Bloomberg projects:  
+In addition to the articles below I've contributed to the following projects:  
 
 ["Wired for Repression"](http://topics.bloomberg.com/wired-for-repression/)
 
