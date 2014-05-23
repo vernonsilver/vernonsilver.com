@@ -2,7 +2,7 @@
 old_permalink: ""
 layout: page
 published: true
-title: "Vernon Talks \"Stairway to Heaven\" on Bloomberg TV"
+title: "Vernon Talks <em>Stairway to Heaven</em> on Bloomberg TV"
 category: news
 ---
 
