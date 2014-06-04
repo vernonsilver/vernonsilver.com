@@ -126,11 +126,11 @@
   category: Finance
 
 -  
-  title: "Cracking China's Skype Surveillance Software"
-  date: 2014-03-08
-  publication: "Bloomberg Businessweek"
-  link_to_original: "http://www.businessweek.com/articles/2013-03-08/skypes-been-hijacked-in-china-and-microsoft-is-o-dot-k-dot-with-it"
-  category: Cyber
+  title: "Gold Making People Crazy in Search for Sunken Treasure"
+  date: 2013-11-14
+  publication: "Bloomberg News"
+  link_to_original: "http://www.bloomberg.com/news/2013-11-14/gold-making-people-crazy-in-search-for-sunken-treasure.html"
+  category: Ancient
 
 -  
   title: "Bank Born Out of Black Death Struggles to Survive"
@@ -140,10 +140,24 @@
   category: Finance
 
 -  
+  title: "Cracking China's Skype Surveillance Software"
+  date: 2013-03-08
+  publication: "Bloomberg Businessweek"
+  link_to_original: "http://www.businessweek.com/articles/2013-03-08/skypes-been-hijacked-in-china-and-microsoft-is-o-dot-k-dot-with-it"
+  category: Cyber
+
+-  
   title: "Skype's Watch List in China"
   date: 2013-03-08
   publication: "Bloomberg Businessweek"
   link_to_original: "http://www.businessweek.com/articles/2013-03-08/skypes-watch-list-in-china"
+  category: Cyber
+
+-  
+  title: "FinSpy Surveillance Tool Takes Over Computers"
+  date: 2012-12-31
+  publication: "Bloomberg TV"
+  link_to_original: "http://www.bloomberg.com/video/finspy-surveillance-tool-takes-over-computers-jEyQ3lz_QwWSMWXFIAl28Q.html"
   category: Cyber
 
 -  
@@ -152,6 +166,27 @@
   publication: "Bloomberg Businessweek"
   link_to_original: "http://www.businessweek.com/magazine/content/11_12/b4220015661759.htm"
   category: Ancient
+
+-  
+  title: "The Dark Art of Appraisal"
+  date: 2010-10-05
+  publication: "Bloomberg Markets"
+  link_to_original: "http://www.bloomberg.com/news/2010-10-04/picasso-sale-depends-on-appraiser-seeing-no-lactating-raspberry.html"
+  category: Ancient
+  
+-  
+  title: "`Buffett of Arabia' Alwaleed Sees Wealth Wane"
+  date: 2010-26-04
+  publication: "Bloomberg Markets"
+  link_to_original: "http://www.bloomberg.com/news/2010-04-26/alwaleed-holds-wallet-with-warren-buffett-as-princely-riches-incur-setback.html"
+  category: Finance
+  
+-  
+  title: "Qaddafi's Money Manager"
+  date: 2001-10-25
+  publication: "Bloomberg Markets"
+  link_to_original: "http://www.globalpolicy.org/component/content/article/195-libya/42361.html"
+  category: Finance
 
 -
   title: "Bedtime for Moammar: Head of state, colonel, and now children's book author Gadhafi"
