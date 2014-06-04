@@ -15,5 +15,3 @@ In addition to the articles below, Vernon has contributed to these projects:
 ["Wired for Repression"](http://topics.bloomberg.com/wired-for-repression/)
 
 ["Unsafe at any Bitrate"](http://topics.bloomberg.com/unsafe-at-any-bitrate/)
-
-["Gold Shafted"](http://topics.bloomberg.com/gold-shafted/)
