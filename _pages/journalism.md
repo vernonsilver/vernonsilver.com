@@ -12,6 +12,6 @@ published: true
 
 In addition to the articles below, Vernon has contributed to these projects:  
 
-["Wired for Repression"](http://topics.bloomberg.com/wired-for-repression/)
+[Wired for Repression](http://topics.bloomberg.com/wired-for-repression/)
 
-["Unsafe at any Bitrate"](http://topics.bloomberg.com/unsafe-at-any-bitrate/)
+[Unsafe at any Bitrate](http://topics.bloomberg.com/unsafe-at-any-bitrate/)
