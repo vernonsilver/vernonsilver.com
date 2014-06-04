@@ -8,7 +8,7 @@ edit_link: "http://prose.io/#VernonSilverweb/vernonsilver.com/edit/gh-pages/_dat
 published: true
 ---
 
-[Bloomberg Businessweek stories](http://www.businessweek.com/authors/2518-vernon-silver)
+[Bloomberg Businessweek bio page](http://www.businessweek.com/authors/2518-vernon-silver)
 
 In addition to the articles below, Vernon has contributed to these projects:  
 
