@@ -2,7 +2,7 @@
 		<div class="searchbox lighter">
 			<input type="text" class="search rounded" placeholder="Search" />
 		</div>
-		<div class="list">	
+		<div class="list">
 			{% for writing in site.data.writing limit:250 %}
 			<div>
 				<small class="category">{{ writing.category }}</small><br />
@@ -12,13 +12,13 @@
 								{% if writing.link_to_original %}
 									<a href="{{writing.link_to_original}}">
 										<em>
-											{{ writing.publication | sort}}
+											{{ writing.publication }}
 										</em>
 									</a>
 										<a href="{{writing.link_to_original}}" class="icon-link-ext"></a>
 								{% else %}
 									<em>
-										{{ writing.publication | sort}}
+										{{ writing.publication }}
 									</em>
 								{% endif %}
 							</small>

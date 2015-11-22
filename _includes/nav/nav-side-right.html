@@ -22,19 +22,19 @@
 		<ul class="posts">
 			<li><strong>Recent Writings</strong></li>
 			{% for writing in site.data.writing limit:5 %}
-				<li>{{ writing.title }}<br />							
+				<li>{{ writing.title }}<br />
 					<small class="publication">
 					{{ writing.date | date: "%b %d, %Y" }}
 						{% if writing.link_to_original %}
 							<a href="{{writing.link_to_original}}">
 								<em>
-									{{ writing.publication | sort}}
+									{{ writing.publication }}
 									</em>
 								</a>
 							<a href="{{writing.link_to_original}}" class="ss-redirect"></a>
 						{% else %}
 							<em>
-								{{ writing.publication | sort}}
+								{{ writing.publication }}
 							</em>
 						{% endif %}
 					</small>
@@ -44,4 +44,4 @@
 	</section>
 {% endif %}
 {% include global/footer.html %}
-</aside>			
+</aside>
