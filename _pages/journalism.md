@@ -9,7 +9,7 @@ published: true
 ---
 
 
-[Bloomberg Businessweek bio page](http://www.bloomberg.com/authors/ABpZU6XZAo0/vernon-silver)
+[Bloomberg Businessweek bio page](https://www.journalismfestival.com/speaker/vernon-silver)
 
 In addition to the articles below, Vernon has contributed to these projects:  
 
